@@ -6,15 +6,22 @@ subtitle: library.nyu.edu
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {% capture page_title %}
+  {% if page.display_title %}{{page.display_title}} | {% else %}
+    {% if page.url != '/' and page.url != '/index.html' %}{{page.title}} | {% endif %}
+  {% endif %}
+  {% endcapture %}
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link rel="stylesheet" href="https://library.nyu.edu/assets/css/global.css">
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7436432/789146/css/fonts.css" />
-  <link rel="stylesheet" href="https://library.nyu.edu/assets/css/style-guide.css">
 </head>
 <body>
-  <main id="main" tabindex="-1">
-    {{ content }}
-  </main>
+  <div class="scrollable">
+    <main id="main" tabindex="-1">
+      {% include banner.html %}
+      {{ content }}
+    </main>
+  </div>
 </body>
 </html>

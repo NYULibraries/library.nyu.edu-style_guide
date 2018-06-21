@@ -1,0 +1,25 @@
+<header class="banner banner--page">
+<div class="wrap">
+  <div class="banner__inner">
+    {% if include.breadcrumbs %}
+      {% include breadcrumbs.html %}
+    {% endif %}
+
+    <h1 class="heading heading--page">
+      {% if page.image and include.simple != true %}
+        <img class="banner__image" src="{{ page.image }}" alt="{{ page.title | escape }}" />
+      {% endif %}
+
+      {% if page.display_title %}
+        {{ page.display_title }}
+      {% else %}
+        {{ page.title }}
+      {% endif %}
+    </h1>
+
+    {% if page.subtitle %}
+      <h2 class="heading heading--subtitle">{{ page.subtitle }}</h2>
+    {% endif %}
+  </div>
+</div>
+</header>
