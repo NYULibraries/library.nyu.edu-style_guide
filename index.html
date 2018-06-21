@@ -1,0 +1,15 @@
+---
+title: Style Guide
+subtitle: library.nyu.edu
+layout: default
+---
+
+<h1>Welcome to the Style Guide</h1>
+
+<h2>Contents</h2>
+
+<ol>
+  {% for page in site.pages %}
+  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+  {% endfor %}
+</ol>
