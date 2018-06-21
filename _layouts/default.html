@@ -1,20 +1,12 @@
----
-title: Style Guide
-subtitle: library.nyu.edu
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {% capture page_title %}
-  {% if page.display_title %}{{page.display_title}} | {% else %}
-    {% if page.url != '/' and page.url != '/index.html' %}{{page.title}} | {% endif %}
-  {% endif %}
-  {% endcapture %}
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link rel="stylesheet" href="https://library.nyu.edu/assets/css/global.css">
+  <link rel="stylesheet" href="//library.nyu.edu/assets/css/global.css">
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7436432/789146/css/fonts.css" />
+
+  <title>{{page.title}} | {{site.title}}</title>
 </head>
 <body>
   <div class="scrollable">
