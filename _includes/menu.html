@@ -1,0 +1,51 @@
+{% if include.scope == "site" %}
+  {% assign scope = site %}
+{% else %}
+  {% assign scope = page %}
+{% endif %}
+{% if include.name %}
+  {% assign name = include.name %}
+{% else %}
+  {% assign name = "links" %}
+{% endif %}
+<ul {% if include.scope == 'site' and name == 'main_menu' or name == 'secondary_menu' %}
+    class="menu menu--{{ name | slugify }}"
+  {% else %}
+    class="list"
+  {% endif %}>
+  {% for item in scope[name] %}
+    {% assign title = item.first %}
+    {% assign link = item.last %}
+    {% if title == "My Library Account" and site.account_menu and name != 'account_menu'  %}
+      {% assign has_submenu = 'true' %}
+    {% else %}
+      {% assign has_submenu = 'false' %}
+    {% endif %}
+    <li class="menu__li menu__li--{{ title | slugify }}">
+      {% comment %}
+      Generate normal link if specified; otherwise, generate link that triggers sliding search display
+      {% endcomment %}
+      {% if link %}
+        <a href="{{ link }}"
+          class="menu__link menu__link--{{ title | slugify }}{% if has_submenu == 'true' %} has-submenu{% endif %}"
+          {% if link contains "http" %}
+            target="_blank"
+          {% endif %}
+          {% if has_submenu == 'true' %}
+            aria-haspopup="true"
+            aria-expanded="false"
+          {% endif %}>
+          {{ title }}
+        </a>
+      {% else %}
+        <a class="menu__link menu__link--{{ title | slugify }} js-toggle-catalog ss-search" href="javascript:void(0);">
+          {{ title }}
+        </a>
+      {% endif %}
+
+      {% if include.scope == "site" and name == "secondary_menu" and title == "My Library Account" and site.account_menu %}
+        {% include menu.html name="account_menu" scope="site" %}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
