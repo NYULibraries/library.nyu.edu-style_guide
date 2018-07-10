@@ -1,7 +1,6 @@
 ---
 title: LibGuides Widgets Embeds
 layout: article
-markdown: true
 ---
 
 ## Copy & Paste libguides embed code

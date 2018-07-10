@@ -1,7 +1,6 @@
 ---
 title: Typography
 layout: article
-markdown: true
 ---
 
 # Families

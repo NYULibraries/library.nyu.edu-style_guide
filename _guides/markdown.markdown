@@ -1,6 +1,5 @@
 ---
 title: Writing with Markdown
-markdown: true
 ---
 
 # H1 - Heading 1
