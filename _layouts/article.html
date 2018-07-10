@@ -3,11 +3,7 @@ layout: default
 ---
 <div class="wrap content has-sidebar">
   <div class="block block--body">
-    {% if page.markdown %}
-    {{ content | markdownify }}
-    {% else %}
     {{ content }}
-    {% endif %}
   </div>
   {% include sidebar.html %}
 
