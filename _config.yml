@@ -1,7 +1,14 @@
 title: 'Style Guide NYU Libraries'
 baseurl: '/library.nyu.edu-style_guide'
+collections:
+  guides:
+    title: Guides
+    output: true
+    permalink: "/:collection/:path/"
 defaults:
 - scope:
-    path: guides
+    path: ""
+    type: guides
   values:
     layout: guide
+    breadcrumbs: true

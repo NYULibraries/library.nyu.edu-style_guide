@@ -1,29 +1,16 @@
 ---
 layout: article
 subtitle: Style Guide
-breadcrumbs: true
 ---
 
 <link rel="stylesheet" type="text/css" href="//library.nyu.edu//assets/css/style-guide.css" />
 
 <div class="style-guide-content--{{ page.title | slugify }}">
-  {% unless page.hide_heading %}
     <h1>Preview</h1>
-  {% endunless %}
-
-  {% if page.markdown %}
-  {{ content | markdownify }}
-  {% else %}
-  {{ content }}
-  {% endif %}
-
-  {% unless page.hide_code %}
+      {{ content }}
     <hr />
 
     <h1 id="code">Code Example</h1>
 
     <textarea rows="15" style="font-family:monospace">{{ content | escape }}</textarea>
-  {% endunless %}
-
-  <a href="{{ site.baseurl }}" class="less">Back to Style Guide</a>
 </div>

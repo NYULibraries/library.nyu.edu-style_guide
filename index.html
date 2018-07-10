@@ -15,9 +15,7 @@ links:
 <h2>Contents</h2>
 
 <ol>
-  {% for page in site.pages %}
-  {% if page.layout == "guide" %}
-  <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-  {% endif %}
+  {% for page in site.guides %}
+  <li><a href="{{ page.url | prepend:site.baseurl }}">{{ page.title }}</a></li>
   {% endfor %}
 </ol>
