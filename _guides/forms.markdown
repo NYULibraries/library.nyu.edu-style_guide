@@ -1,4 +1,5 @@
 ---
+breadcrumbs: true
 title: Form Elements
 layout: article
 published: true
