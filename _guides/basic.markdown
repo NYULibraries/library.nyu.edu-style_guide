@@ -1,4 +1,5 @@
 ---
+breadcrumbs: true
 title: Basic Elements
 published: true
 layout: guide
