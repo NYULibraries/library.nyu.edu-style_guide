@@ -22,9 +22,9 @@ prose:
           element: text
           label: title
       - name: breadcrumbs
-          field:
-            element: hidden
-            value: true
+        field:
+          element: hidden
+          value: true
 collections:
   guides:
     title: Guides
