@@ -1,5 +1,7 @@
 ---
 title: Writing with Markdown
+published: true
+layout: guide
 ---
 
 # H1 - Heading 1
