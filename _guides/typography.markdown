@@ -1,6 +1,7 @@
 ---
 title: Typography
 layout: article
+published: true
 ---
 
 # Families
