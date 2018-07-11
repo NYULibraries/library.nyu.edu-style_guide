@@ -12,6 +12,7 @@ prose:
   metadata:
     _guides:
       - name: layout
+        label: Layout
         field:
           value: guide
           element: select
