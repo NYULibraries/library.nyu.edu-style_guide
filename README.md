@@ -22,6 +22,5 @@ Switch the `markdown` flag to `true` to use markdown page (the file extension ca
 ---
 title: Typography
 layout: article # Excludes 'preview' and 'code example' sections in guides (default: guide)
-markdown: true # Required to render markdown (default: false)
 ---
 ```
