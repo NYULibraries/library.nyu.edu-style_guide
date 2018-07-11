@@ -1,5 +1,7 @@
 ---
 title: QuestionPoint Forms
+published: true
+layout: guide
 ---
 
 <form action="http://www.questionpoint.org/crs/servlet/org.oclc.ask.AskPatronQuestion" method="post" name="entryform1" onsubmit="return checkIt(this)">
