@@ -3,6 +3,8 @@ breadcrumbs: true
 title: Basic Elements
 published: true
 layout: guide
+links:
+  Github: 'http://github.com'
 ---
 
 <h1>H1 - Heading 1</h1>
