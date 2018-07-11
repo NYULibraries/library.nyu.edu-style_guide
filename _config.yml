@@ -7,11 +7,12 @@ prose:
   metadata:
     _guides:
       - name: links
-        label: Links
-        element: textarea
-      - name: layout
-        label: Layout
         field:
+          label: Links
+          element: textarea
+      - name: layout
+        field:
+          label: Layout
           value: guide
           element: select
           options:
