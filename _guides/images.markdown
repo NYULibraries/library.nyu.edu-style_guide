@@ -1,6 +1,7 @@
 ---
 title: Images and Video
 layout: article
+published: true
 ---
 
 <h2>Images</h2>
