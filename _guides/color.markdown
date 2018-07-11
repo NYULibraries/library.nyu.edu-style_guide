@@ -1,4 +1,5 @@
 ---
+breadcrumbs: true
 title: Color
 layout: article
 published: true
