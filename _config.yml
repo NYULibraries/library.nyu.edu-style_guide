@@ -4,11 +4,6 @@ prose:
   siteurl: https://nyulibraries.github.io/library.nyu.edu-style_guide/
   media: images
   rooturl: _guides
-  ignore:
-    - /_layouts
-    - /_includes
-    - _config.yml
-    - index.html
   metadata:
     _guides:
       - name: layout
