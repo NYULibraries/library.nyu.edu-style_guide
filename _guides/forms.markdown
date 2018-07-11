@@ -1,6 +1,7 @@
 ---
 title: Form Elements
 layout: article
+published: true
 ---
 
 <form>
