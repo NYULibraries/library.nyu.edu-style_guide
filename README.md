@@ -12,7 +12,7 @@ library.nyu.edu Style Guide
 * `Create new file` with a `.markdown` extension and write in a combination of HTML and Markdown.
 * The page will automatically be added to the front-page list of guides.
 
-## Frontmatter
+## Layouts & Frontmatter
 
 The default layout is `guide`, which will render a `Preview` and `Code Example` of the content.
 The `article` layout will exclude these sections and simply render the content.
