@@ -18,6 +18,7 @@ Contributions are availabe publically via [prose.io](https://prose.io/#NYULibrar
 title: Typography
 layout: article # Excludes 'preview' and 'code example' sections in guides (default: guide)
 links: # appear in sidebar
+  links_title: More information (default: Quick Links)
   GitHub: https://github.com/NYULibraries/library.nyu.edu
   Siteleaf Admin: http://manage.siteleaf.com
   # etc.
