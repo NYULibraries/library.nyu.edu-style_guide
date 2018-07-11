@@ -3,8 +3,8 @@ baseurl: '/library.nyu.edu-style_guide'
 prose:
   siteurl: https://nyulibraries.github.io/library.nyu.edu-style_guide/
   media: images
+  rooturl: _guides/
   metadata:
-    rooturl: _guides/
     _guides:
       - name: layout
         field:
