@@ -12,15 +12,13 @@ Contributions are availabe publically via [prose.io](https://prose.io/#NYULibrar
 * `Create new file` with a `.markdown` extension and write in a combination of HTML and Markdown.
 * The page will automatically be added to the front-page list of guides.
 
-## Layouts & Frontmatter
-
-The default layout is `guide`, which will render a `Preview` and `Code Example` of the content.
-The `article` layout will exclude these sections and simply render the content.
-Switch the `markdown` flag to `true` to use markdown page (the file extension can still be HTML).
-
+## Frontmatter
 ```yml
 ---
 title: Typography
 layout: article # Excludes 'preview' and 'code example' sections in guides (default: guide)
----
+links: # appear in sidebar
+  GitHub: https://github.com/NYULibraries/library.nyu.edu
+  Siteleaf Admin: http://manage.siteleaf.com
+  # etc.
 ```
