@@ -1,5 +1,7 @@
 ---
 title: Item Lists
+published: true
+layout: guide
 ---
 
 <div class="flex-blocks">
