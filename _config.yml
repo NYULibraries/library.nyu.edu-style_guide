@@ -17,10 +17,14 @@ prose:
             - name: Article (raw content)
               value: article
           help: "Choose guide (preview + code example) or article (raw content) layouts."
-      - name: "title"
+      - name: title
         field:
           element: text
           label: title
+      - name: breadcrumbs
+          field:
+            element: hidden
+            value: true
 collections:
   guides:
     title: Guides
