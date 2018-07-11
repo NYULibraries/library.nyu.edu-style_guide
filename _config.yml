@@ -4,15 +4,22 @@ prose:
   siteurl: https://nyulibraries.github.io/library.nyu.edu-style_guide/
   media: images
   metadata:
+    rooturl: _guides
     _guides:
-      - name: "layout"
+      - name: layout
         field:
-          value: "guide"
-          element: "select"
+          value: guide
+          element: select
+          options:
+            - name: Guide (preview + code example)
+              value: guide
+            - name: Article (raw content)
+              value: article
+          help: "Choose guide (preview + code example) or article (raw content) layouts."
       - name: "title"
         field:
-          element: "text"
-          label: "title"
+          element: text
+          label: title
 collections:
   guides:
     title: Guides
