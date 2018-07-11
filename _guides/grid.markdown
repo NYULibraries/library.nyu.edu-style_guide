@@ -1,5 +1,7 @@
 ---
 title: Grid Layout
+published: true
+layout: guide
 ---
 
 <div class="block">
