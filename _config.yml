@@ -1,5 +1,18 @@
 title: 'Style Guide NYU Libraries'
 baseurl: '/library.nyu.edu-style_guide'
+prose:
+  siteurl: https://nyulibraries.github.io/library.nyu.edu-style_guide/
+  media: images
+  metadata:
+    _guides:
+      - name: "layout"
+        field:
+          value: "guide"
+          element: "select"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
 collections:
   guides:
     title: Guides
