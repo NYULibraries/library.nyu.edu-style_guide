@@ -1,4 +1,5 @@
 ---
+breadcrumbs: true
 title: Typography
 layout: article
 published: true

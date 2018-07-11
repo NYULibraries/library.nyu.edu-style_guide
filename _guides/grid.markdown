@@ -1,4 +1,5 @@
 ---
+breadcrumbs: true
 title: Grid Layout
 published: true
 layout: guide

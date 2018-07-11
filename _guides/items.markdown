@@ -1,4 +1,5 @@
 ---
+breadcrumbs: true
 title: Item Lists
 published: true
 layout: guide

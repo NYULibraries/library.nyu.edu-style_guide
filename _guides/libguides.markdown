@@ -1,4 +1,5 @@
 ---
+breadcrumbs: true
 title: LibGuides Widgets Embeds
 layout: article
 published: true

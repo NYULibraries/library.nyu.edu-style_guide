@@ -1,4 +1,5 @@
 ---
+breadcrumbs: true
 title: Images and Video
 layout: article
 published: true

@@ -1,4 +1,5 @@
 ---
+breadcrumbs: true
 title: Writing with Markdown
 published: true
 layout: guide
