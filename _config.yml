@@ -6,10 +6,6 @@ prose:
   rooturl: _guides
   metadata:
     _guides:
-      - name: links
-        field:
-          label: Links
-          element: textarea
       - name: layout
         field:
           label: Layout
