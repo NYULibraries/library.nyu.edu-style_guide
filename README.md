@@ -6,9 +6,9 @@ library.nyu.edu Style Guide
 
 # Editing Guide
 
-## Add guides:
+Contributions are availabe publically via [prose.io](https://prose.io/#NYULibraries/library.nyu.edu-style_guide)
 
-* Link to [guides](https://github.com/NYULibraries/library.nyu.edu-style_guide/tree/gh-pages/_guides)
+## Add guides:
 * `Create new file` with a `.markdown` extension and write in a combination of HTML and Markdown.
 * The page will automatically be added to the front-page list of guides.
 
