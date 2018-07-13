@@ -8,7 +8,7 @@ links: null
 
 <h1>H1 - Heading 1</h1>
 
-```
+```HTML
 <h1>H1 - Heading 1</h1>
 ```
 
