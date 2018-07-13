@@ -16,8 +16,6 @@ links: null
 
 <hr />
 
-# This is a new section
-
 <p>This is a paragraph with a horizontal rule above it.</p>
 
 <p>
