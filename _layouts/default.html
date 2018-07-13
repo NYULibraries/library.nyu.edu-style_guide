@@ -6,6 +6,10 @@
   <link rel="stylesheet" href="//library.nyu.edu/assets/css/global.css">
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7436432/789146/css/fonts.css" />
 
+  {% if page.collection == 'guides' %}
+  <link rel="stylesheet" type="text/css" href="//library.nyu.edu/assets/css/style-guide.css" />
+  {% endif %}
+
   <title>{{page.title}} | {{site.title}}</title>
 </head>
 <body>
