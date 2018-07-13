@@ -4,6 +4,7 @@ title: Item Lists
 published: true
 layout: guide
 ---
+Here is a description.
 
 <div class="flex-blocks">
   <div class="block">
