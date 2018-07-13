@@ -6,6 +6,8 @@ layout: default
     {{ content }}
   </div>
   {% include sidebar.html %}
-
+  
+  {{% if page.collection == 'guides' %}}
   <a href="{{ site.baseurl }}/" class="less">Back to Style Guide</a>
+  {{% endif %}}
 </div>
