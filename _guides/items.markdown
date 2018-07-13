@@ -3,11 +3,6 @@ breadcrumbs: true
 title: Item Lists
 published: true
 layout: guide
-Description: |
-  # Description
-  This is a description of the item lists.
-  ## More informaiton
-  More goes here.
 description: |
   # Description
   This is a description of the item lists.
