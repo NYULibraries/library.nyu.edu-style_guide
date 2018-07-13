@@ -2,7 +2,7 @@
 breadcrumbs: true
 title: Basic Elements
 published: true
-layout: guide
+layout: article
 links: null
 ---
 
