@@ -8,7 +8,9 @@ links: null
 
 <h1>H1 - Heading 1</h1>
 
-<textarea rows="15" style="font-family:monospace"><h1>H1 - Heading 1</h1></textarea>
+```
+<h1>H1 - Heading 1</h1>
+```
 
 <h2>H2 - Heading 2</h2>
 
