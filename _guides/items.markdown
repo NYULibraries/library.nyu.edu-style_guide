@@ -3,11 +3,12 @@ breadcrumbs: true
 title: Item Lists
 published: true
 layout: guide
+Description: |
+  # Description
+  This is a description of the item lists.
+  ## More informaiton
+  More goes here.
 ---
-## Description
-
-Here is a description.
-
 <div class="flex-blocks">
   <div class="block">
     <h2 class="heading--block">Link lists</h2>
