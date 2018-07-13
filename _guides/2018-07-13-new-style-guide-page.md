@@ -1,7 +1,7 @@
 ---
 breadcrumbs: true
 layout: guide
-published: false
+published: true
 title: new style guide page
 ---
 ## A New Post
