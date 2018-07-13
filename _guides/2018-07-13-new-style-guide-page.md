@@ -1,6 +1,6 @@
 ---
 breadcrumbs: true
-layout: guide
+layout: article
 published: true
 title: new style guide page
 ---
