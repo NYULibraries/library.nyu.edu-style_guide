@@ -6,8 +6,21 @@ layout: default
     {{ content }}
   </div>
   {% include sidebar.html %}
-  
-  {{% if page.collection == 'guides' %}}
+
+  {% assign include_code_example = page.code_example %}
+  {% if layout.code_example %}
+    {% unless page.code_example == false %}
+      {% assign include_code_example = true %}
+    {% endunless %}
+  {% endif %}
+
+
+  {% if include_code_example %}
+  <h1 id="code">Code Example</h1>
+  <textarea rows="15" style="font-family:monospace">{{ content | escape }}</textarea>
+  {% endif %}
+
+  {% if page.collection == 'guides' %}
   <a href="{{ site.baseurl }}/" class="less">Back to Style Guide</a>
-  {{% endif %}}
+  {% endif %}
 </div>

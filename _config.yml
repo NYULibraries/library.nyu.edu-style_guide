@@ -1,5 +1,7 @@
 title: 'Style Guide NYU Libraries'
 baseurl: '/library.nyu.edu-style_guide'
+markdown: kramdown
+highlighter: rouge
 prose:
   siteurl: https://nyulibraries.github.io/library.nyu.edu-style_guide/
   media: images

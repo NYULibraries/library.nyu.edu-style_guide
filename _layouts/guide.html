@@ -1,15 +1,11 @@
 ---
 layout: article
 subtitle: Style Guide
+code_example: true
 ---
 
 <div class="style-guide-content--{{ page.title | slugify }}">
-    {{ page.description | markdownify }}
     <h1>Preview</h1>
       {{ content }}
     <hr />
-
-    <h1 id="code">Code Example</h1>
-
-    <textarea rows="15" style="font-family:monospace">{{ content | escape }}</textarea>
 </div>

@@ -27,9 +27,12 @@ published: true
 
 <p>Copy and paste the video embed into any text field</p>
 
-<p>
-  <code>&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dQw4w9WgXcQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-</p>
+```html
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+frameborder="0" allowfullscreen>
+</iframe>
+```
 
 <p>
   <iframe width="420" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
