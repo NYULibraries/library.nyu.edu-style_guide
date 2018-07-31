@@ -50,9 +50,10 @@ This is a paragraph with a horizontal rule above it.
 [Button](http://example.org){: .button}
 ```
 
-[External Link](http://example.org){: .meta--external-site}
+[External Link](http://example.org){: .external}
+
 ```markdown
-[External Link](http://example.org){: .meta--external-site}
+[External Link](http://example.org){: .external}
 ```
 
 > This is a blockquote!
