@@ -47,12 +47,12 @@ These are the rules you should follow:
 
 Or in HTML:
 ```HTML
-<h1>Using colors correction</h1>
+<h1>Using colors correctly</h1>
 <p>These are the rules you should follow...</p>
 ```
 
 Or mix-and-match!
-```HTML
+```markdown
 # Using colors correctly
 <p>These are the rules you should follow...</p>
 ```
